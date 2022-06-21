@@ -24,7 +24,7 @@ html{
     scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar{
+/* html::-webkit-scrollbar{
     width: .8rem;
 }
 
@@ -35,8 +35,8 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
-}
-
+} */
+ 
 body{
     background: var(--bg);
 }
