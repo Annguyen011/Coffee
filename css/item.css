@@ -1,0 +1,39 @@
+.item_child {
+    margin-top: 80px;
+}
+
+.item_child .heading {
+    margin-top: 20px;
+    text-align:left;
+    
+}
+.item_child .row{
+    display: flex;
+    /* align-items: center; */
+    background:var(--black);
+    flex-wrap: wrap;
+}
+
+.item_child .row .image{
+    flex:1 1 45rem;
+}
+
+.item_child .row .image img{
+    width: 100%;
+}
+.item_child .row .content{
+    flex:1 1 45rem;
+    padding:4rem;
+}
+
+.item_child .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.item_child .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
